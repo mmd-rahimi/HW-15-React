@@ -8,7 +8,7 @@ export function Header () {
 <div className="flex flex-row-reverse justify-between items-center p-4 px-12 bg-orange-500">
    <div className="text-white font-medium">بهترین غذا در سریع ترین زمان</div>
 
-   <div className="text-white font-bold text-xl">فست فود آنلاین 🍕</div>
+   <div className="text-white font-bold text-xl">فست فود آنلاین</div>
   </div>
 
   <p className="m-4 mr-12 text-2xl font-bold">منو</p>

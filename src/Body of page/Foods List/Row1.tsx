@@ -1,3 +1,5 @@
+import { CounterFoodBtn } from "./CounterFoodBtn";
+
 export function Row1() {
     const flexFoods =
     <div className="flex flex-row gap-5 mt-5 justify-center">
@@ -9,7 +11,9 @@ export function Row1() {
             </div>
             <div className="flex justify-start mr-4 gap-40">
                 <div className="mt-[5rem] text-orange-500 text-sm font-medium">22,500 تومان</div>
-                <div className="mt-[5rem]">2</div>
+                <div className="mt-[5rem]">
+                    <CounterFoodBtn />
+                </div>
             </div>
         </div>
 
