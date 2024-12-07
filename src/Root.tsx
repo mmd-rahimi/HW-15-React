@@ -4,7 +4,7 @@ import { Row1 } from "./Body of page/Foods List/Row1";
 
 export function Root () {
     const root = 
-    <div className="bg-slate-200">
+    <div className="bg-slate-300">
             <Header />
             <Row1 />
             <Footer />
