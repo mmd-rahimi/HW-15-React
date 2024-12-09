@@ -1,11 +1,13 @@
 import { CounterFoodBtn } from "./CounterFoodBtn";
 
-export function Row1({title, caption, cost}) {
+
+
+export function Item({title, caption, cost, img}: {title:string, caption:string, cost:string, img:string}) {
     const flexFoods =
     <div className="mx-auto">
-        <div className="bg-white w-[22rem] h-[18rem] rounded-xl">
+        <div className="bg-white w-[22rem] h-[18rem] rounded-xl py-4">
             <div className="w-[20rem] h-[9rem] mx-auto">
-                <img className="h-full w-full" src="./public/burger.jpg" alt="" />
+                <img className="h-full w-full" src={img} alt="" />
                 <p className="font-medium text-lg mt-2">{title}</p>
                 <p className="font-normal text-sm mt-2 text-gray-400">{caption}</p>
             </div>
@@ -17,8 +19,6 @@ export function Row1({title, caption, cost}) {
             </div>
         </div>
 
-        {/* <div className="bg-black">2</div>
-        <div className="bg-black">3</div> */}
 
     </div>
     return flexFoods;
